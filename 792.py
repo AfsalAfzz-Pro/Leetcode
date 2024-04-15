@@ -13,5 +13,5 @@ class Solution:
                 count += 1  # Increment count only if all characters of word are found in s
         return count
     
-# s1 = Solution()
-# print(s1.numMatchingSubseq(s = "abcde", words = ["a","bb","acd","ace"]))
+s1 = Solution()
+print(s1.numMatchingSubseq(s = "abcde", words = ["a","bb","acd","ace"]))
